@@ -1,19 +1,6 @@
 # Getting-and-Cleaning-Data
 Getting and Cleaning Data_Assignment Week 4
 
----
-title: "README"
-author: "Julia Maier"
-date: "`r Sys.Date()`"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## Getting and Cleaning Data Course Project
-
 In this repository, result files from the Getting and Cleaning Data Course Project assignment are stored. They are used for transforming the **UCI HAR Data set** into a tidy data set.
 
 ### Overview
