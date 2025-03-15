@@ -1,4 +1,3 @@
-
 library(dplyr)
 library(tidyverse)
 
@@ -60,3 +59,6 @@ library(tidyverse)
 
 #Tidy data set
   tidy_data <- data_mean_sd_act %>% group_by(subject_ID, activity_type) %>% summarize_all(mean, na.rm = T)
+  
+#Write Table
+  write.table(tidy_data, file = "tidy_data.txt", row.name=FALSE )
