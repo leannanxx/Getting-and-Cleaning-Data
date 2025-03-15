@@ -5,7 +5,7 @@ In this repository, result files from the Getting and Cleaning Data Course Proje
 
 ### Overview
 
-1. **run_analysis.R:**  
+1. **run_analysis.R**  
 - This script merges the *training* and the *test* data sets to create one data set.  
 - It extracts the measurements on the mean and standard deviation for each measurement.   
 - It then assigns descriptive activity names to the activities in the data set and appropriately labels the data set with descriptive variable names. 
